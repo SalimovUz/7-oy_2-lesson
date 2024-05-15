@@ -1,9 +1,7 @@
 import React, { useReducer } from 'react';
 
-// Boshlang'ich holatlar
 const initialState = { red: 0, green: 0, blue: 0 };
 
-// Reducer funksiyasi
 const reducer = (state, action) => {
   switch (action.type) {
     case 'incrementRed':
@@ -29,9 +27,9 @@ const ChangeColor = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white">
       <div
-        className="w-64 h-64 mb-8"
+        className="w-64 h-64 mb-8 rounded-full"
         style={{ backgroundColor: `rgb(${state.red}, ${state.green}, ${state.blue})` }}
       ></div>
       <div className="space-y-4">
