@@ -43,13 +43,13 @@ const ChangeColor = () => {
             className="px-4 py-2 bg-red-500 text-white rounded shadow hover:bg-red-600"
             onClick={() => dispatch({ type: 'incrementRed' })}
           >
-            Increment
+            Add color
           </button>
           <button
             className="px-4 py-2 bg-red-500 text-white rounded shadow hover:bg-red-600"
             onClick={() => dispatch({ type: 'decrementRed' })}
           >
-            Decrement
+            Minus color
           </button>
         </div>
         <div className="space-x-2 flex items-center">
@@ -60,7 +60,7 @@ const ChangeColor = () => {
             className="px-4 py-2 bg-green-500 text-white rounded shadow hover:bg-green-600"
             onClick={() => dispatch({ type: 'incrementGreen' })}
           >
-            Increment
+            Add color
           </button>
           <button
             className="px-4 py-2 bg-green-500 text-white rounded shadow hover:bg-green-600"
@@ -83,7 +83,7 @@ const ChangeColor = () => {
             className="px-4 py-2 bg-blue-500 text-white rounded shadow hover:bg-blue-600"
             onClick={() => dispatch({ type: 'decrementBlue' })}
           >
-            Decrement
+            Minus color
           </button>
         </div>
         <div className="space-x-2">
