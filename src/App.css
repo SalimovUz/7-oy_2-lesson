@@ -1,11 +1,11 @@
 button {
-  padding: 5px 15px;
   background-color: aquamarine;
-  border: 1px solid gray;
   border-radius: 10px;
   transition: all 0.5s;
 }
 
 button:hover {
   background-color: beige;
+  border: 2px solid rgb(78, 202, 78);
+  color: rgb(78, 202, 78);
 }

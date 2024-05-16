@@ -62,8 +62,8 @@ const MyChangeColor = () => {
             >
               Red: {state.red}
             </h1>
-            <button onClick={() => dispatch({ type: "addred" })}>Add</button>
-            <button onClick={() => dispatch({ type: "minusred" })}>
+            <button className="px-4 bg-blue-950 text-white font-semibold hover:border-2 hover:border-green-800 hover:text-green-700" onClick={() => dispatch({ type: "addred" })}>Add</button>
+            <button className="px-4 bg-rose-500 text-white font-semibold border-none" onClick={() => dispatch({ type: "minusred" })}>
               Minus
             </button>
           </div>
@@ -75,8 +75,8 @@ const MyChangeColor = () => {
             >
               blue: {state.blue}
             </h1>
-            <button onClick={() => dispatch({ type: "addblue" })}>Add</button>
-            <button onClick={() => dispatch({ type: "minusblue" })}>
+            <button className="px-4 bg-blue-950 text-white font-semibold hover:border-2 hover:border-green-800 hover:text-green-700" onClick={() => dispatch({ type: "addblue" })}>Add</button>
+            <button className="px-4 bg-rose-500 text-white font-semibold border-none" onClick={() => dispatch({ type: "minusblue" })}>
               Minus
             </button>
           </div>
@@ -88,8 +88,8 @@ const MyChangeColor = () => {
             >
               green: {state.green}
             </h1>
-            <button onClick={() => dispatch({ type: "addgreen" })}>Add</button>
-            <button onClick={() => dispatch({ type: "minusgreen" })}>
+            <button className="px-4 bg-blue-950 text-white font-semibold hover:border-2 hover:border-green-800 hover:text-green-700" onClick={() => dispatch({ type: "addgreen" })}>Add</button>
+            <button className="px-4 bg-rose-500 text-white font-semibold border-none" onClick={() => dispatch({ type: "minusgreen" })}>
               Minus
             </button>
           </div>
@@ -103,8 +103,8 @@ const MyChangeColor = () => {
             >
               Yellow: {state.yellow}
             </h1>
-            <button onClick={() => dispatch({ type: "addyellow" })}>Add</button>
-            <button onClick={() => dispatch({ type: "minusyellow" })}>
+            <button className="px-4 bg-blue-950 text-white font-semibold hover:border-2 hover:border-green-800 hover:text-green-700" onClick={() => dispatch({ type: "addyellow" })}>Add</button>
+            <button className="px-4 bg-rose-500 text-white font-semibold border-none" onClick={() => dispatch({ type: "minusyellow" })}>
               Minus
             </button>
           </div>
@@ -116,8 +116,8 @@ const MyChangeColor = () => {
             >
               purple: {state.purple}
             </h1>
-            <button onClick={() => dispatch({ type: "addpurple" })}>Add</button>
-            <button onClick={() => dispatch({ type: "minuspurple" })}>
+            <button className="px-4 bg-blue-950 text-white font-semibold hover:border-2 hover:border-green-800 hover:text-green-700" onClick={() => dispatch({ type: "addpurple" })}>Add</button>
+            <button className="px-4 bg-rose-500 text-white font-semibold border-none" onClick={() => dispatch({ type: "minuspurple" })}>
               Minus
             </button>
           </div>
@@ -129,8 +129,8 @@ const MyChangeColor = () => {
             >
               black: {state.black}
             </h1>
-            <button onClick={() => dispatch({ type: "addblack" })}>Add</button>
-            <button onClick={() => dispatch({ type: "minusblack" })}>
+            <button className="px-4 bg-blue-950 text-white font-semibold hover:border-2 hover:border-green-800 hover:text-green-700" onClick={() => dispatch({ type: "addblack" })}>Add</button>
+            <button className="px-4 bg-rose-500 text-white font-semibold border-none" onClick={() => dispatch({ type: "minusblack" })}>
               Minus
             </button>
           </div>
