@@ -27,7 +27,8 @@ const reducer = (state, action) => {
       return { ...state, black: state.black < 255 ? state.black + 10 : 255 };
     case "minusblack":
       return { ...state, black: state.black > 0 ? state.black - 10 : 0 };
-
+    case "reset":
+      return initialState
     default:
   }
 };
@@ -134,6 +135,7 @@ const MyChangeColor = () => {
               Minus
             </button>
           </div>
+          <button onClick={() => dispatch({ type: "reset"})}>Reset All</button>
         </div>
       </div>
     </div>
